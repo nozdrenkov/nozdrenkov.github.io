@@ -1,9 +1,9 @@
 # Site settings
-title: Записки лентяя
+title: Моделирование
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://citrux.github.io" # the base hostname & protocol for your site
-github_username: citrux
+url: "http://nozdrenkov.github.io" # the base hostname & protocol for your site
+github_username: nozdrenkov
 
 # Build settings
 markdown: kramdown
