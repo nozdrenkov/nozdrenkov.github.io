@@ -57,8 +57,8 @@ void process() {
     #pragma omp parallel for
     for (int i = 1; i < N; ++i) {
       T[i][cur] = T[i - 1][prev] * K / 2 +
-        T[i][prev] * (1 - K) +
-        T[i + 1][prev] * K / 2;
+                     T[i][prev] * (1 - K) +
+                     T[i + 1][prev] * K / 2;
     }
     T[0][cur] = left_val;
     T[N][cur] = T[N - 1][cur] - right_val;
