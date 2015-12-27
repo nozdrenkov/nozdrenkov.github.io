@@ -7,7 +7,7 @@ using namespace std;
 const double sigma = 0.07;
 const double alpha = 3.5;
 const double beta = 1.5;
-const double mass = 5e-25;
+const double mass = 5e-5;
 const double scale = 5;
 const double dt = 1e-9;
 
